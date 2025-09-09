@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
-  // useEffect runs once after component mounts
-  useEffect(() => { document.title = 'Obed Negrón - About Me'; }, []);
   
   return (
     <>
@@ -12,7 +9,7 @@ function AboutMe() {
           <h1>About Me</h1>
             <img 
               className="titlesubimage"
-              src="/picture/profile-icon.jpg"
+              src="/picture/profile-icon-1.jpg"
               alt="A picture of Obed Negron"
             />
           <div className="titlesubdiv">

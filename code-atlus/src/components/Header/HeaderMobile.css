@@ -1,0 +1,46 @@
+@media (max-width: 780px) {
+.header-container {
+  min-height: 200px;
+  min-width: 780px;
+  max-height: 200px;
+  max-width: 780px;
+}
+
+.header-obedn-logo {
+  height: 80px;
+  width: 480px;
+  margin-left: 235px;
+}
+
+.header-sidebuttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 600px;
+  gap: 100px
+}
+
+.sidebar-collapse-button {
+  background-color: transparent;
+  border: 0px;
+  width: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.sidebar-collapse-button:hover {
+  transform: scale(1.00);
+}
+
+.sidebar-accessibility-button {
+  background-color: transparent;
+  border: 0px;
+  width: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.sidebar-accessibility-button:hover {
+  transform: scale(1.00);
+}
+
+}

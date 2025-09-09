@@ -3,8 +3,6 @@ import './Portfolio.css';
 import './PortfolioMobile.css';
 
 const Portfolio: React.FC = () => {
-  // useEffect runs once after component mounts
-  useEffect(() => { document.title = 'Obed Negrón - Portfolio'; }, []);
 
   return (
     <>

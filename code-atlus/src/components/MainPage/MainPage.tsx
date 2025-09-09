@@ -27,22 +27,11 @@ function App() {
   return (
      
     <Router>
-      {/*
-      {isUserDeepScrolling && (
-      <button onClick={scrollToTop}>
-        <img
-        className="static-scrollup"
-        src="/page-elements/scroll-up.webp"
-        alt="Icon to Scroll up"
-        >
-        </img>
-      </button>
-      )}
-      */}
       <div className="app">
         <Header onToggle={handleToggleSidebar} />
-        <div className="components-structured">
-          <Sidebar isOpen={isSidebarOpen} />
+        <main className="components-structured">
+          {/* <Sidebar isOpen={isSidebarOpen} /> */}
+          {/*
           <main className="main-content-area">
             <Routes>
               <Route path="/" element={<HomePage />} />
@@ -50,10 +39,21 @@ function App() {
               <Route path="/About-Me" element={<AboutMe />} />
               <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
             </Routes>
-          </main>
-        </div>
+          */}
+        <Routes>
+          <Route path="/" element={
+            <div>
+              <HomePage />
+              <AboutMe />
+              <Portfolio />
+            </div>
+          } />
+          <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
+        </Routes>
+        </main>
         <Footer />
       </div>
+
     </Router>
   );
 };
