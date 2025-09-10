@@ -49,22 +49,6 @@
     padding: 0;
   }
 
-/* Header */
-  .header-list {
-    padding: 0px;
-}
-
-  .header-obedn-logo {
-    width: 300px;
-}
-
-  .sidebar-collapse-button {
-    width: 50px;
-    margin-bottom: -10px;
-    margin-top: 10px;
-    margin-left: -20px;
-}
-
 
 /* Sidebar */
   .sidebar {
