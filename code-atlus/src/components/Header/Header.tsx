@@ -9,8 +9,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ onToggle }) => {
 
   return (
-    <aside className="header-container">
-      <header className="header-order">
+      <header className="header-container">
         <img 
           src="./logo/logo.png"
           alt="A logo with the name website creator, 'Obed Negron'"
@@ -19,27 +18,26 @@ const Header: React.FC<HeaderProps> = ({ onToggle }) => {
       <div className="header-sidebuttons">
         <button 
           onClick={onToggle} 
-          className="sidebar-accessibility-button"
+          className="sidebar-collapse-button"
         >
         <img
-          src="./page-elements/MenuBar.webp"
-          alt="Accessibility Menu Button"
-          title="Open Accessibility Menu" 
+          src="./page-elements/MenuIcon.png"
+          alt="Colapse Sidemenu button"
+          title="Open Site's Menu" 
         />
         </button>
         <button 
           onClick={onToggle} 
-          className="sidebar-collapse-button"
+          className="sidebar-accessibility-button"
         >
         <img
-          src="./page-elements/MenuBar.webp"
-          alt="Colapse Sidemenu button"
-          title="Colapse Sidemenu" 
+          src="./page-elements/AccessibilityIcon.png"
+          alt="Accessibility Menu Button"
+          title="Open Accessibility Menu" 
         />
         </button>
       </div>
       </header> 
-    </aside>
     );
 }
 

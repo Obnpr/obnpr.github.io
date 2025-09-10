@@ -1,18 +1,26 @@
-@media (max-width: 780px) {
+@media (max-width: 800px) {
 /* Structure the Sidebar and main-content-view correctly */
+  .app hr {
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   .components-structured {
     display: grid;
     justify-content: space-between;
     flex-grow: 1;
-    gap: 15px;
-    min-width: 480px;
-    max-width: 480px;
-    margin-left: 175px;
+    gap: 10px;
+    min-width: 70%;
+    max-width: 90%;
+    margin-bottom: 20px;
+    padding: 25px;
   }
 
 /* Main content */
   .main-content-box {
-    width: 100%;
+    width: 95%;
   }
 
   .main-content-box h1, h2, h3, h4, ul, li, p {
@@ -20,28 +28,25 @@
   }
 
   .main-content-box h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .main-content-box h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .main-content-box h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .main-content-box h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .main-content-box ul {
     list-style-type: none;
     padding: 0;
-  }
-
-  .main-content-box hr {
-    max-width: 290px;
   }
 
 /* Header */

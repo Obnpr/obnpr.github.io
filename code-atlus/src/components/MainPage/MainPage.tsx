@@ -44,7 +44,9 @@ function App() {
           <Route path="/" element={
             <div>
               <HomePage />
+              <hr></hr>
               <AboutMe />
+              <hr></hr>
               <Portfolio />
             </div>
           } />
