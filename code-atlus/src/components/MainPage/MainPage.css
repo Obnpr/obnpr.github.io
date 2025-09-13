@@ -36,12 +36,13 @@ body {
   flex-direction: column;
   align-items: center;
 }
-  .app hr {
-    border: 2px solid white;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+
+.app hr {
+  border: 2px solid white;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .main-content-box {
   display: flex;

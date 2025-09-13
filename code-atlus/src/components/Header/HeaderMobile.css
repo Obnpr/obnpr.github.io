@@ -1,22 +1,36 @@
 @media (max-width: 800px) {
 .header-container {
   width: 100%;
-  height: 180px;
+  height: 183px;
   max-width: 90%;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+}
+
+a.header-name {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2.1rem;
 }
 
 .header-obedn-logo {
   margin-top: 30px;
-  margin-bottom: 20px;
-  height: 50px;
-  width: 100% !important;
+  margin-bottom: 25px;
+  height: 65px;
+  width: 65px;
 }
 
 
 .header-sidebuttons {
   display: flex;
   flex-direction: row;
-  margin-left: 15px;
   gap: 10px;
   transition: all 0.3s ease;
 }

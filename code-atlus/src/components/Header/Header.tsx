@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import './HeaderMobile.css';
 
@@ -7,14 +8,19 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ onToggle }) => {
-
   return (
-      <header className="header-container">
-        <img 
-          src="./logo/logo.png"
-          alt="A logo with the name website creator, 'Obed Negron'"
-          className="header-obedn-logo"
-        />
+      <header className="header-container"> 
+          <Link
+            to="/"
+            className="header-name"
+            >
+            <img
+              src="./logo/osmiumbits-logo.jpg"
+              alt="A logo with the name website creator, 'Obed Negrón'"
+              className="header-obedn-logo"
+            />
+            Obed Negrón
+          </Link>
       <div className="header-sidebuttons">
         <button 
           onClick={onToggle} 
@@ -42,3 +48,9 @@ const Header: React.FC<HeaderProps> = ({ onToggle }) => {
 }
 
 export default Header;
+          <Link 
+          to="/"
+          className="sidebar-buttons"
+          >
+          Home
+          </Link>
