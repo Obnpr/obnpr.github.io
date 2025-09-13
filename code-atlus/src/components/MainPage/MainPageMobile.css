@@ -21,6 +21,7 @@
 /* Main content */
   .main-content-box {
     width: 95%;
+    margin-left: 0%;
   }
 
   .main-content-box h1, h2, h3, h4, ul, li, p {
@@ -29,7 +30,6 @@
 
   .main-content-box h1 {
     font-size: 2rem;
-    text-align: center;
   }
 
   .main-content-box h2 {

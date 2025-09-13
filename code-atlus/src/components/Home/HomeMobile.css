@@ -1,6 +1,37 @@
 @media (max-width: 800px) {
+.Intro-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Intro-cont h1 {
+  font-size: 2.0rem !important;
+}
+
+.Intro-cont h2 {
+  color: #c9c9c9;
+  font-size: 1.5rem !important;
+}
+
+.Intro-cont h3 {
+  font-size: 1.6rem !important;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Intro-cont p {
+  object-fit: cover;
+  border-radius: 100px; 
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
 .mainpage-buttons-box {
-  margin-left: 13px;
+  margin-left: 10px;
   margin-bottom: 170px;
   margin-top: 50px;
   display: flex;
@@ -17,7 +48,7 @@
   font-weight: bold;
   text-align: center;
   transition: all 0.3s ease;
-  width: 70%;
+  width: 65%;
 }
 
 .mainpage-buttons:hover {
@@ -33,18 +64,11 @@
 }
 
 .titlesubimage {
+  object-fit: cover;
+  border-radius: 15px; 
   width: 150px;
   margin-top: 15px;
-  margin-right: 0px;
-  flex-shrink: 0;
-}
-
-.titlesubtext {
-  object-fit: cover;
-  border-radius: 100px; 
-  width: 200px;
-  margin-top: 30px;
-  margin-right: 10px;
+  margin-left: 22%;
   flex-shrink: 0;
 }
 

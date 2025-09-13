@@ -1,11 +1,42 @@
 @media (min-width: 900px) {
-.mainpage-buttons-box {
-  width: 30%;
+
+.Intro-cont h1 {
+  font-size: 3.0rem !important;
+  text-align: left !important;
+}
+
+.Intro-cont h2 {
+  color: #c9c9c9;
+  font-size: 2.7rem !important;
+  margin-bottom: 100px;
+}
+
+.Intro-cont h3 {
+  font-size: 2.4rem !important;
+  margin-bottom: 30px;
+}
+
+.Intro-alignment {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 15%;
+}
+
+.Intro-alignment p {
+  text-align: left;
+  width: 40%;
+}
+
+.mainpage-buttons-box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  margin-left: 29%;
+  margin-left: 25%;
+  margin-top: 90px;
+  margin-bottom: 250px;
 }
 
 .mainpage-buttons {
@@ -16,9 +47,7 @@
   font-weight: bold;
   text-align: center;
   transition: all 0.3s ease;
-  width: 70%;
-  margin-top: 70px;
-  margin-bottom: 150px;
+  width: 65%;
 }
 
 .mainpage-buttons:hover {
@@ -41,7 +70,7 @@
 
 .titlesubimage {
   object-fit: cover;
-  border-radius: 100px; 
+  border-radius: 15px; 
   width: 200px;
   margin-top: 30px;
   margin-right: 95px;
