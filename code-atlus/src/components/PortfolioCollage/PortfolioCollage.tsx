@@ -11,10 +11,9 @@ function PorfolioCollage() {
     <>
     <main className="portfoliocollage-content">
       <div className="portfoliocollage-div">
-        <h1 id="part-frontpage">Portfolio for Collage Class COMP 4910</h1>
+        <h1 id="part-frontpage">Portfolio for Collage Class COMP 4910
+        </h1>
         <hr></hr>
-        <div className="titlesubdiv">
-        <ul>
           <li>
           <h2>Obed Negrón Bodón</h2>
           <h2>P00589029</h2>
@@ -207,9 +206,7 @@ function PorfolioCollage() {
             <h2 id="part-used-references">Used References</h2>
             <h3>Lorem Ipsum</h3>
             <p>Lorem Ipsum</p>
-        </ul>  
         </div>
-      </div>
     </main>
     </>
   );

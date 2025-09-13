@@ -1,3 +1,4 @@
+@media (min-width: 900px) {
 .portfoliocollage-content {
   background-color: #282b39;
   display: grid;
@@ -175,4 +176,6 @@ a#is-disabled {
   border: 5px solid #17182b;
   cursor: not-allowed;
   transform: scale(1.00);
+}
+
 }
