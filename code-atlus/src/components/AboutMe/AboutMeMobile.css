@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 100%;
 }
 
 .aboutme-main-content h1 {
@@ -13,7 +14,6 @@
 .aboutme-main-content h2 {
   font-size: 2.0rem !important;
   margin-bottom: 50px;
-  margin-left: 70%;
 }
 
 .aboutme-content-img {
@@ -40,6 +40,19 @@
   text-align: left;
 }
 
+.aboutme-main-content-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.aboutme-main-content-skills h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .aboutme-content-skills-table {
   display: flex;
@@ -51,7 +64,8 @@
 
 .aboutme-content-skills-table p {
   font-size: 2.0rem;
-  margin-left: 70%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .aboutme-content-skills-table img {

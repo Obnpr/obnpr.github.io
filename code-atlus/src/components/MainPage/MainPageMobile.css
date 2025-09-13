@@ -18,6 +18,10 @@
     padding: 25px;
   }
 
+  .body{
+    overflow-x: hidden;
+  }
+
 /* Main content */
   .main-content-box {
     color: white;
@@ -26,10 +30,7 @@
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
-  }
-
-  .main-content-box h1, h2, h3, h4, ul, li, p {
-    max-width: 300px;
+    margin-top: -5px;
   }
 
   .main-content-box h1 {
@@ -37,7 +38,7 @@
   }
 
   .main-content-box h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .main-content-box h3 {

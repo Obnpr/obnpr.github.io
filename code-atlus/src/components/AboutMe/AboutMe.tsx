@@ -22,7 +22,7 @@ function AboutMe() {
               </p>
           </div>
         </article>
-        <article className="aboutme-main-content">
+        <article className="aboutme-main-content-skills">
           <h2>Skills</h2>
           <ul className="aboutme-content-skills-table">
               <figure>
