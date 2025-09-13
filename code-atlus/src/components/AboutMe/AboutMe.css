@@ -6,28 +6,60 @@
     width: 100%;
 }
 
-.aboutme-titlesubdiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 80px;
+.aboutme-main-content h1 {
+  margin-bottom: 50px;
+}
+
+.aboutme-main-content h2 {
+  margin-bottom: 50px;
+}
+
+.aboutme-content-img {
+  min-width: 25%;
+  min-height: 25%;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.aboutme-content-img img {
+  object-fit: contain;
+  border-radius: 15px; 
+  margin-top: 40px;
+  width: 100%;
+}
+
+.aboutme-content {
+  margin-bottom: 100px;
+}
+
+.aboutme-content p {
+  margin-top: 40px;
   width: 70%;
   text-align: left;
-  margin-left: 7%;
+  margin-left: 16%;
 }
 
-.aboutme-titlesubtext {
-  flex-grow: 1;
-  margin-right: 70px;
+
+.aboutme-content-skills-table {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 95%;
+  gap: 10px;
+  margin-left: 33%;
 }
 
-.aboutme-titlesubimage {
-  object-fit: cover;
-  border-radius: 15px; 
-  width: 200px;
-  margin-top: 30px;
-  margin-right: 95px;
-  flex-shrink: 0;
+.aboutme-content-skills-table p {
+  font-size: 2.0rem;
+  margin-right: 30px;
+}
+
+.aboutme-content-skills-table img {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  display: block;
 }
 
 }
