@@ -1,32 +1,43 @@
-@media (max-width: 800px) {
-/* Structure the Sidebar and main-content-view correctly */
-  .app hr {
-    border: 2px solid white;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+@media (max-width: 899px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  body {
+    background-color: #000319 !important;
+  }
+  
   .components-structured {
-    display: grid;
-    justify-content: space-between;
+    background-color: #282b39;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     flex-grow: 1;
-    gap: 10px;
+    width: 100%;
     min-width: 70%;
     max-width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 25px;
   }
 
-  .body{
-    overflow-x: hidden;
+  .components-structured p {
+    text-align: left;
+  }
+
+  .components-structured hr {
+    border: 5px solid white;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 
 /* Main content */
   .main-content-box {
     color: white;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
@@ -34,24 +45,38 @@
   }
 
   .main-content-box h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .main-content-box h2 {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
 
   .main-content-box h3 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
 
   .main-content-box h4 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+  }
+
+  .main-content-box p {
+    font-size: 1.1rem;
   }
 
   .main-content-box ul {
     list-style-type: none;
     padding: 0;
+  }
+
+  .main-content-box a {
+  color: white;
+  text-decoration: none;
+  }
+
+  .main-content-box a:hover {
+  color: white;
+  text-decoration: none;
   }
 
 

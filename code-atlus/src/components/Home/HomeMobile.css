@@ -63,12 +63,12 @@
   margin-top: 40px;
 }
 
-.titlesubimage {
-  object-fit: cover;
+.titlesubimage img {
+  object-fit: container;
   border-radius: 15px; 
-  width: 150px;
-  margin-top: 15px;
-  margin-left: 22%;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   flex-shrink: 0;
 }
 

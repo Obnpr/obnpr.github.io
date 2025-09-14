@@ -39,6 +39,11 @@
   margin-left: 16%;
 }
 
+.aboutme-main-content-skills h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 6%;
+}
 
 .aboutme-content-skills-table {
   display: flex;
@@ -46,7 +51,7 @@
   align-items: center;
   width: 95%;
   gap: 10px;
-  margin-left: 33%;
+  margin-left: 20%;
 }
 
 .aboutme-content-skills-table p {
