@@ -18,12 +18,11 @@ select {
 /* Structure the Sidebar and main-content-view correctly */
 .components-structured {
   background-color: #282b39;
-  border-radius: 6px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  min-width: 60%;
-  max-width: 60%;
-  margin-bottom: 20px;
+  min-width: 50%;
+  max-width: 50%;
   padding: 25px;
 }
 

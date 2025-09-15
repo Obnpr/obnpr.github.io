@@ -37,7 +37,7 @@ a.header-name:hover {
 .header-sidebuttons {
   display: flex;
   flex-direction: row;
-  margin-left: 95px;
+  margin-left: 14%;
   gap: 20px;
   transition: all 0.3s ease;
 }
