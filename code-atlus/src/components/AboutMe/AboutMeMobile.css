@@ -11,18 +11,27 @@
   margin-bottom: 50px;
 }
 
-.aboutme-content-img {
-  min-width: 80%;
-  min-height: 80%;
-  max-width: 80%;
-  max-height: 80%;
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
-.aboutme-content-img img {
+.aboutme-container {
+  
+}
+
+.aboutme-container-img-button figure {
+  margin-bottom: 10%;
+  margin-top: 60px;
+}
+
+.aboutme-container-img-button img {
   object-fit: contain;
-  border-radius: 15px; 
-  margin-top: 40px;
-  width: 100%;
+  border-radius: 15px;
+  width: 220px;
 }
 
 .aboutme-content {
@@ -33,6 +42,18 @@
   margin-top: 40px;
   width: 100%;
   text-align: left;
+}
+
+.aboutme-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #17182b;
+  border: 15px solid #17182b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 65%;
+  margin-left: 16%;
 }
 
 .aboutme-main-content-skills {

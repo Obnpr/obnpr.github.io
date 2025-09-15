@@ -14,29 +14,50 @@
   margin-bottom: 50px;
 }
 
-.aboutme-content-img {
-  min-width: 25%;
-  min-height: 25%;
-  max-width: 25%;
-  max-height: 25%;
-}
-
-.aboutme-content-img img {
-  object-fit: contain;
-  border-radius: 15px; 
-  margin-top: 40px;
+.aboutme-container {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-}
-
-.aboutme-content {
-  margin-bottom: 85px;
-}
-
-.aboutme-content p {
   margin-top: 40px;
-  width: 80%;
+  margin-bottom: 100px;
+}
+
+.aboutme-container {
+  gap: 10%;
+}
+
+.aboutme-container-img-button figure {
+  margin-bottom: 10%;
+}
+
+.aboutme-container-img-button img {
+  object-fit: contain;
+  border-radius: 15px;
+  width: 220px;
+}
+
+.aboutme-container-p {
+  width: 60%;
+  max-width: 60%;
   text-align: left;
-  margin-left: 10%;
+}
+
+.aboutme-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #17182b;
+  border: 15px solid #17182b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 65%;
+  margin-left: 16%;
+}
+
+.aboutme-buttons:hover {
+  color: #ffffff !important;
+  transform: scale(1.10);
 }
 
 .aboutme-main-content-skills h2 {
