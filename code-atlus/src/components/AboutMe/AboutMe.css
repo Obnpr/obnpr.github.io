@@ -29,42 +29,58 @@
 }
 
 .aboutme-content {
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
 .aboutme-content p {
   margin-top: 40px;
-  width: 70%;
+  width: 80%;
   text-align: left;
-  margin-left: 16%;
+  margin-left: 10%;
 }
 
 .aboutme-main-content-skills h2 {
   text-align: center;
   width: 100%;
-  margin-bottom: 6%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .aboutme-content-skills-table {
   display: flex;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
-  width: 95%;
-  gap: 10px;
-  margin-left: 14%;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15%;
+}
+
+.aboutme-content-skills-table li {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
 }
 
 .aboutme-content-skills-table p {
   font-size: 2.0rem;
-  margin-right: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.aboutme-content-skills-table figure {
+  margin: 0;
 }
 
 .aboutme-content-skills-table img {
+  object-fit: contain;
   min-width: 50px;
   min-height: 50px;
   max-width: 50px;
   max-height: 50px;
-  display: block;
 }
+
 
 }
