@@ -60,7 +60,7 @@
 
 .aboutme-content-skills-table p {
   max-width: 100%;
-  text-align: center;
+  text-align: center !important;
 }
 
 .aboutme-content-skills-table img {
