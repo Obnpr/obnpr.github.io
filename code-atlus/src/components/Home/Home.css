@@ -1,7 +1,8 @@
 @media (min-width: 900px) {
-
 .Intro-cont {
-  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Intro-cont h1 {
@@ -11,7 +12,7 @@
 
 .Intro-cont h2 {
   color: #c9c9c9;
-  font-size: 2.7rem !important;
+  font-size: 2.5rem !important;
   margin-bottom: 100px;
 }
 
@@ -20,12 +21,20 @@
   margin-bottom: 30px;
 }
 
+.Intro-cont img {
+  object-fit: container;
+  border-radius: 15px; 
+  width: 200px;
+  margin-top: 30px;
+  flex-shrink: 0;
+}
+
 .Intro-alignment {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 15%;
-  margin-left: 4%;
 }
 
 .Intro-alignment p {
@@ -36,14 +45,16 @@
 
 .mainpage-buttons-box {
   text-wrap: nowrap;
-  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 35%;
+  min-width: 0%;
+  max-width: 100%;
   gap: 20px;
-  margin-left: 30%;
   margin-top: 90px;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
 
 .mainpage-buttons {
@@ -75,12 +86,5 @@
   margin-right: 70px;
 }
 
-.titlesubimage img {
-  object-fit: container;
-  border-radius: 15px; 
-  width: 200px;
-  margin-top: 30px;
-  flex-shrink: 0;
-}
 
 }

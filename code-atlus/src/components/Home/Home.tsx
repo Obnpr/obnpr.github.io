@@ -12,7 +12,7 @@ function HomePage() {
           <h2>Front-end developer and game developer.</h2>
           <div className="Intro-alignment"> 
             <p>Undergraduate student with a focus on software and front-end development. Experienced in computer hardware, video game development, and proficient in Linux systems, particularly Debian-based distributions.</p>
-            <figure className="titlesubimage">
+            <figure>
             <img 
               src="/picture/profile-icon-1.jpg"
               alt="A picture of Obed Negron"
