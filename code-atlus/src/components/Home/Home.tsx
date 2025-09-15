@@ -8,9 +8,9 @@ function HomePage() {
   return (
     <main className="main-content-box">
       <article className="Intro-cont"> 
-          <h1>I'm Obed Negrón.</h1>
-          <h2>Front-end developer and game developer.</h2>
-          <div className="Intro-alignment"> 
+        <h1>I'm Obed Negrón.</h1>
+        <h2>Front-end developer and game developer.</h2>
+        <div className="Intro-alignment"> 
             <p>Undergraduate student with a focus on software and front-end development. Experienced in computer hardware, video game development, and proficient in Linux systems, particularly Debian-based distributions.</p>
             <figure>
             <img 
@@ -18,7 +18,7 @@ function HomePage() {
               alt="A picture of Obed Negron"
             />
             </figure>
-          </div>
+        </div>
         <ul className="mainpage-buttons-box">
             <h3>Important Links</h3>
             <a 

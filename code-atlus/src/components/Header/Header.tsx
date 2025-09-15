@@ -9,15 +9,14 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ onToggle }) => {
   return (
-      <header className="header-container"> 
+      <header className="header"> 
           <Link
             to="/"
             className="header-name"
             >
             <img
               src="./logo/osmiumbits-logo.jpg"
-              alt="A logo with the name website creator, 'Obed Negrón'"
-              className="header-obedn-logo"
+              alt="Logo of Osmium Bits with the name website creator, 'Obed Negrón'"
             />
             Obed Negrón
           </Link>

@@ -21,8 +21,9 @@
     width: 100%;
     min-width: 70%;
     max-width: 90%;
-    margin-bottom: 30px;
     padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 5%;
   }
 
   .components-structured p {
@@ -42,7 +43,6 @@
     width: 100%;
     max-width: 100%;
     margin-left: 0%;
-    margin-top: -5px;
   }
 
   .main-content-box h1 {

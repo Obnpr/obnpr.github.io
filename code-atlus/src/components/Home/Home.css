@@ -1,19 +1,16 @@
 @media (min-width: 900px) {
-.Intro-cont {
+  .Intro-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .Intro-cont h1 {
-  font-size: 3.0rem !important;
-  text-align: left !important;
+  text-align: left;
 }
 
 .Intro-cont h2 {
   color: #c9c9c9;
-  font-size: 2.5rem !important;
-  margin-bottom: 100px;
 }
 
 .Intro-cont h3 {
@@ -35,6 +32,7 @@
   align-items: center;
   justify-content: center;
   gap: 15%;
+  margin-top: 100px;
 }
 
 .Intro-alignment p {
@@ -48,7 +46,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 35%;
   min-width: 0%;
   max-width: 100%;
