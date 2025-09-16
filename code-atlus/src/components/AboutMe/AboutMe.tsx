@@ -6,7 +6,7 @@ function AboutMe() {
   return (
       <main className="main-content-box">
         <article className="aboutme-main-content">
-          <h1>About Me</h1>
+          <h1 id="section-about-me">About Me</h1>
           <ul className="aboutme-container">
             <div className="aboutme-container-p">
                 <p>

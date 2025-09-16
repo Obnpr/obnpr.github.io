@@ -19,30 +19,36 @@ const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
           to="/"
           className="sidebar-buttons"
           >
-          Home
+            Home
           </Link>
           <Link 
-            to="/About-Me"
+            to="#About-Me"
             className="sidebar-buttons"
           >
-          About Me
+            About Me
+          </Link>
+          <Link 
+            to="#Skills"
+            className="sidebar-buttons"
+          >
+            Skills
           </Link>
           <Link to="/Portfolio"
             className="sidebar-buttons"
           >
-          Portfolio
+            Portfolio
           </Link>
           <Link 
             to="/Past-Projects"
             className="sidebar-buttons"
           >
-          Contact Me
+            Contact Me
           </Link>
           <Link 
             to="/Osmium-Bits"
             className="sidebar-buttons"
           >
-          Osmium Bits
+            Osmium Bits
           </Link>
     </aside>
   );

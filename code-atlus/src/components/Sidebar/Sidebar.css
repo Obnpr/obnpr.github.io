@@ -5,9 +5,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   width: 50%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px;
   margin-top: 20px;
+  max-width: 50%;
+  justify-content: space-evenly;
+  transition: all 0.5s ease-in-out;
 }
 
 .sidebar ul {
@@ -27,7 +30,7 @@
 }
 
 .sidebar a:hover {
-  transform: scale(1.10);
+  transform: scale(1.15);
   color: white !important;
 }
 
@@ -41,37 +44,13 @@
   margin-bottom: -10px;
 }
 
-.sidebar-image-buttons {
-  width: 160px;
-  background-color: transparent;
-  border-radius: 20px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  margin-left: 0px;
-  margin-bottom: 10px;
-}
-
-.sidebar-image-buttons:hover {
-  transform: scale(1.10);
-}
-
 .sidebar-collapsed {
-  width: 0px !important;
-  min-width: 0px;
-  height: 0px !important;
-  min-height: 0px;
-  padding: 0px !important;
   margin: 0px !important;
   border: none !important; 
   overflow: hidden !important;
-  
   opacity: 0 !important;
   visibility: hidden !important;
   pointer-events: none !important;
-}
-
-[data-status="sidebar-collapsed"] {
-  margin-top: 200px;
 }
 
 }

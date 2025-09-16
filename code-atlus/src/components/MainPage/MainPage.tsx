@@ -32,12 +32,9 @@ function App() {
         <Sidebar isOpen={isSidebarOpen} />
         <main className="components-structured">
         <main className="main-content-area">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/Portfolio" element={<Portfolio />} />
-              <Route path="/About-Me" element={<AboutMe />} />
-              <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />}/>
+          </Routes>
           <Routes>
             <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
           </Routes>

@@ -1,8 +1,8 @@
 @media (min-width: 900px) {
-  .Intro-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Intro-cont {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .Intro-cont h1 {
