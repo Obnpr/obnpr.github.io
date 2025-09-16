@@ -1,13 +1,13 @@
+@media (min-width: 900px) {
 .sidebar {
   background-color: #17182b;
-  color: white !important;
-  width: 200px;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 6px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
 .sidebar ul {
@@ -18,6 +18,17 @@
 .sidebar a {
   text-decoration: none;
   color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.sidebar a:hover {
+  transform: scale(1.10);
+  color: white !important;
 }
 
 .sidebar-seperator-before {
@@ -28,28 +39,6 @@
   border-top: 3px solid #cccccc;
   padding-top: 10px;
   margin-bottom: -10px;
-}
-
-.sidebar-buttons {
-  border: 0px solid #000319;
-  display: grid;
-  padding: 5px;
-  background-color: transparent;
-  border-radius: 7px;      /* Rounded corners */
-  text-decoration: none;     /* Removes the default link underline */
-  font-weight: bold;
-  text-align: left;    
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
-  margin-left: 0px;
-  margin-bottom: 10px;
-}
-
-/* Style for when you hover over the button */
-.sidebar-buttons:hover {
-  background-color: #000319;
-  border: 2px solid #000319;
-  color: white !important;
-  transform: scale(1.10);
 }
 
 .sidebar-image-buttons {
@@ -83,4 +72,6 @@
 
 [data-status="sidebar-collapsed"] {
   margin-top: 200px;
+}
+
 }

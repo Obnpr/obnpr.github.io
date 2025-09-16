@@ -28,30 +28,20 @@ function App() {
      
     <Router>
       <div className="app">
-        <Header onToggle={handleToggleSidebar} />
+        <Header onToggleSidebar={handleToggleSidebar} />
+        <Sidebar isOpen={isSidebarOpen} />
         <main className="components-structured">
-          {/* <Sidebar isOpen={isSidebarOpen} /> */}
-          {/*
-          <main className="main-content-area">
+        <main className="main-content-area">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/Portfolio" element={<Portfolio />} />
               <Route path="/About-Me" element={<AboutMe />} />
               <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
             </Routes>
-          */}
-        <Routes>
-          <Route path="/" element={
-            <div>
-              <HomePage />
-              <hr></hr>
-              <AboutMe />
-              <hr></hr>
-              <Portfolio />
-            </div>
-          } />
-          <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
-        </Routes>
+          <Routes>
+            <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
+          </Routes>
+          </main>
         </main>
         <Footer />
       </div>

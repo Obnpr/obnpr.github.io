@@ -4,10 +4,10 @@ import './Header.css';
 import './HeaderMobile.css';
 
 interface HeaderProps {
-  onToggle: () => void;
+  onToggleSidebar: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onToggle }) => {
+const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
   return (
       <header className="header"> 
           <Link
@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ onToggle }) => {
           </Link>
       <div className="header-sidebuttons">
         <button 
-          onClick={onToggle} 
+          onClick={onToggleSidebar} 
           className="sidebar-collapse-button"
         >
         <img
@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ onToggle }) => {
         />
         </button>
         <button 
-          onClick={onToggle} 
+          onClick={onToggleSidebar} 
           className="sidebar-accessibility-button"
         >
         <img

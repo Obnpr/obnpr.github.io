@@ -10,23 +10,11 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
 const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
   
-
   return (
       <aside 
         className={sidebarVisibility} 
         data-status={sidebarVisibility}
       >
-          <Link 
-          to="/"
-          className="sidebar-li"
-          >
-            <img 
-              className="sidebar-image-buttons"
-              src="./logo/osmiumbits-logo.jpg"
-              alt="Picture-Logo of Osmium Bits"
-              title="Go Home — Logo of Osmium Bits" 
-            />
-          </Link>
           <Link 
           to="/"
           className="sidebar-buttons"
@@ -38,11 +26,6 @@ const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
             className="sidebar-buttons"
           >
           About Me
-          </Link>
-          <Link to="/Portfolio-Collage"
-            className="sidebar-buttons"
-          >
-          Portfolio Collage Ver.
           </Link>
           <Link to="/Portfolio"
             className="sidebar-buttons"
