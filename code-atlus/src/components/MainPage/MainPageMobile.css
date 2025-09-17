@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   body {
@@ -78,25 +77,6 @@
   .main-content-box a:hover {
   color: white;
   text-decoration: none;
-  }
-
-
-/* Sidebar */
-  .sidebar {
-    display: flex;
-    min-width: 335px;
-    max-width: 335px;
-    margin-left: 10px;
-  }
-  .sidebar a {
-    margin: 10px 0;
-    width: 180px;
-  }
-
-  .sidebar img {
-    margin: 10px 0;
-    width: 100px;
-    display: flex;
   }
 
 /* Convinience */

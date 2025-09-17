@@ -13,7 +13,6 @@ const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
   return (
       <aside 
         className={sidebarVisibility} 
-        data-status={sidebarVisibility}
       >
           <Link 
           to="/"
@@ -22,24 +21,24 @@ const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
             Home
           </Link>
           <Link 
-            to="#About-Me"
+            to="/#About-Me"
             className="sidebar-buttons"
           >
             About Me
           </Link>
           <Link 
-            to="#Skills"
+            to="/#Skills"
             className="sidebar-buttons"
           >
             Skills
           </Link>
-          <Link to="/Portfolio"
+          <Link to="/#Portfolio"
             className="sidebar-buttons"
           >
             Portfolio
           </Link>
           <Link 
-            to="/Past-Projects"
+            to="/#Contact-Me"
             className="sidebar-buttons"
           >
             Contact Me

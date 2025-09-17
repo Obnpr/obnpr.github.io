@@ -3,13 +3,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
-import HomePage from '../Home/Home';
 import Footer from '../Footer/Footer';
 //
+import HomePage from '../Home/Home';
 import AboutMe from '../AboutMe/AboutMe';
 import Portfolio from '../Portfolio/Portfolio';
+//
 import PortfolioCollage from '../PortfolioCollage/PortfolioCollage';
 //
+import ScrollToHash from './ScrollToHash';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 //
 import './MainPage.css';
@@ -24,6 +26,7 @@ function App() {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+// The Main content/component (aka where's all the content actually shows) viewer
   const MainViewer = () => {
     return (
       <>
@@ -36,6 +39,7 @@ function App() {
   
   return (
     <Router>
+      <ScrollToHash />
       <div className="app">
         <Header onToggleSidebar={handleToggleSidebar} />
         <Sidebar isOpen={isSidebarOpen} />

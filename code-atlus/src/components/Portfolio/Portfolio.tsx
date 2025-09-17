@@ -8,7 +8,7 @@ const Portfolio: React.FC = () => {
     <>
       <main className="main-content-box">
         <div className="main-content">
-          <h1>Portfolio</h1>
+          <h1 id="Portfolio" >Portfolio</h1>
           <h2 className="title-before-content">Current Projects</h2>
           <ul className="portfolio-article-container">
             <div className="portfolio-article-box">
