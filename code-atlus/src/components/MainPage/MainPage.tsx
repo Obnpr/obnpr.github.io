@@ -23,9 +23,18 @@ function App() {
   const handleToggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
+  const MainViewer = () => {
+    return (
+      <>
+        <HomePage />
+        <AboutMe />
+        <Portfolio />
+      </>
+    );
+  };
   
   return (
-     
     <Router>
       <div className="app">
         <Header onToggleSidebar={handleToggleSidebar} />
@@ -33,9 +42,7 @@ function App() {
         <main className="components-structured">
         <main className="main-content-area">
           <Routes>
-            <Route path="/" element={<HomePage />}/>
-          </Routes>
-          <Routes>
+            <Route path="/" element={<MainViewer />}/>
             <Route path="/Portfolio-Collage" element={<PortfolioCollage />} />
           </Routes>
           </main>
