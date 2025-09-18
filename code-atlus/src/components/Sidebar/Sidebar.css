@@ -33,16 +33,6 @@
   color: white !important;
 }
 
-.sidebar-seperator-before {
-  padding-bottom: 10px;
-}
-
-.sidebar-seperator-after {
-  border-top: 3px solid #cccccc;
-  padding-top: 10px;
-  margin-bottom: -10px;
-}
-
 .sidebar-collapsed {
   margin: 0px !important;
   border: none !important; 

@@ -5,6 +5,56 @@
   display: flex;
   align-items: stretch;
   flex-direction: column;
+  margin-bottom: 50px;
+}
+
+
+/*Box Related*/
+.portfolio-article-box{
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-article-box img{
+  object-fit: cover;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.portfolio-article-box-logo img{
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/*Button Related*/
+.portfolio-article-container a {
+  color: #ffffff !important;
+  background-color: #17182b;
+  border: 5px solid #17182b;
+  padding: 8px 17px;
+  border-radius: 5px; 
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;    
+  transition: all 0.3s ease;
+}
+
+.portfolio-article-container a:not([disabled]):hover {
+  color: #ffffff !important;
+  transform: scale(1.10);
+}
+
+a#is-disabled {
+  color: #a7a7a7 !important;
+  background-color: #17182b;
+  border: 5px solid #17182b;
+  cursor: not-allowed;
+  transform: scale(1.00);
 }
 
 /*Button Related*/
@@ -17,5 +67,76 @@
   margin-bottom: 100px;
 }
 
+/*Text Related*/
+.portfolio-table-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*New Code*/
+
+.portfolio-table-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+.portfolio-table-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.portfolio-table-article img{
+  width: 100%;
+}
+
+.portfolio-table-article-logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.portfolio-table-article-logo-title figure {
+  margin: 0%;
+}
+
+.portfolio-table-article-logo-title img {
+  width: 100%;
+}
+
+.portfolio-table-article-buttons a {
+  gap: 5%;
+}
+
+.portfolio-table-article-buttons a {
+  background-color: #17182b;
+  border: 10px solid #17182b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 85%;
+}
+
+.portfolio-table-article-buttons a:hover {
+  color: #ffffff !important;
+  transform: scale(1.10);
+}
+
+/*New Code
+.portfolio-table-articles-logo img{
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+*/
 
 }
