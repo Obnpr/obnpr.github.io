@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    scrollbar-width: none;
+  }
+
+  html, body {
+    scrollbar-width: none;
   }
 
   body {

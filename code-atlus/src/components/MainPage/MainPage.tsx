@@ -31,7 +31,9 @@ function App() {
     return (
       <>
         <HomePage />
+        <hr></hr>
         <AboutMe />
+        <hr></hr>
         <Portfolio />
       </>
     );
