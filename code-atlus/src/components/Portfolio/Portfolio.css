@@ -96,10 +96,16 @@
   transition: all 0.3s ease;
 }
 
+.portfolio-table-article-buttons a:hover {
+  color: #ffffff !important;
+  transform: scale(1.10);
+}
+
 a#button-disabled {
   color: #a7a7a7 !important;
   background-color: #17182b;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
+  transform: scale(1.00) !important;
 }
 
 }
