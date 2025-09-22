@@ -20,7 +20,7 @@ const Portfolio: React.FC = () => {
                 </div>
                 <ul className="portfolio-table-article-description">
                   <p>
-                    Early development. It's going to be a 2.5D isometric shooter game, fighting against crawling insects, and centipedes!
+                    Early development. It's a 2.5D shooter video-game, fighting against crawling insects, and centipedes! All artwork shown are early artworks, these are not the final artworks.
                   </p>
                   <p className="portfolio-table-article-description-platform">Not released</p>
                 <ul className="portfolio-table-article-buttons">
@@ -62,7 +62,7 @@ const Portfolio: React.FC = () => {
                 </div>
                 <ul className="portfolio-table-article-description">
                   <p>
-                    Is a Blogging website with interactive user-led like and commenting system. Build utilizing .NET, C#, HTML, CSS and Javascript.
+                    Is a gaming focused blogging website with log-in and sign up features. Also has an interactive 'like' and 'commenting' system for its registered users.
                   </p>
                   <p className="portfolio-table-article-description-platform">Not hosted</p>
                 <ul className="portfolio-table-article-buttons">

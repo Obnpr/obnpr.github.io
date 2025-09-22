@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
         </button>
         <button 
           onClick={onToggleSidebar} 
-          className="sidebar-accessibility-button"
+          className="sidebar-accessibility-button sidebar-disabled-button"
         >
         <img
           src="./page-elements/AccessibilityIcon.png"

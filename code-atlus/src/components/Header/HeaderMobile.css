@@ -42,7 +42,7 @@ a.header-name {
 .sidebar-collapse-button {
   background-color: transparent;
   border: 0px;
-  width: 70px !important;
+  width: 70px;
   font-weight: bold;
 }
 
@@ -51,6 +51,11 @@ a.header-name {
   border: 0px;
   width: 70px;
   font-weight: bold;
+}
+
+.sidebar-disabled-button {
+  width: 0px !important;
+  height: 0px !important;
 }
 
 .sidebar-collapse-button:hover {
