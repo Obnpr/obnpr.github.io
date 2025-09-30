@@ -81,6 +81,36 @@ const Portfolio: React.FC = () => {
                 </ul>
                 </ul>
               </li>
+              <li className="portfolio-table-article">
+                <img
+                  src="./screenshot/freejb.webp"
+                  alt="Placeholder image of a game stick"
+                />
+                <div className="portfolio-table-article-logo-title">
+                  <h3>#FreeJB</h3>
+                </div>
+                <ul className="portfolio-table-article-description">
+                  <p>
+                    Simple argumentative website that talks about 'Checkm8', an IOS jailbreaking tool.
+                  </p>
+                  <p className="portfolio-table-article-description-platform">Not hosted</p>
+                <ul className="portfolio-table-article-buttons">
+                    <a
+                      href="https://github.com/Obnpr/Fuelzone-Blogs" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      id="button-disabled"
+                    >
+                      View Source
+                    </a>
+                    <a
+                      id="button-disabled"
+                    >
+                      View More
+                    </a>
+                </ul>
+                </ul>
+              </li>
 
           </ul>
         </div>
