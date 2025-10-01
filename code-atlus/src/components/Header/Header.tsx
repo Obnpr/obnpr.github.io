@@ -47,9 +47,3 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
 }
 
 export default Header;
-          <Link 
-          to="/"
-          className="sidebar-buttons"
-          >
-          Home
-          </Link>

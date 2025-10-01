@@ -19,7 +19,7 @@ function AboutMe() {
             <div className="aboutme-container-img-button"> 
               <figure>
                 <img
-                  src="/picture/profile-icon-3b.jpg"
+                  src="/picture/profile-icon-2b.png"
                   alt="A picture of Obed Negron"
                 />
               </figure>

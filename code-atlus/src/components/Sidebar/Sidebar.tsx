@@ -8,7 +8,7 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
-const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
+const sidebarVisibility = `sidebar${!isOpen ? '' : '-collapsed'}`;
   
   return (
       <aside 
@@ -37,18 +37,22 @@ const sidebarVisibility = `sidebar${!isOpen ? '-collapsed' : ''}`;
           >
             Portfolio
           </Link>
+          {/* 
           <Link 
             to="/#Contact-Me"
             className="sidebar-buttons"
+            id="button-disabled"
           >
             Contact Me
           </Link>
           <Link 
             to="/Osmium-Bits"
             className="sidebar-buttons"
+            id="button-disabled"
           >
             Osmium Bits
           </Link>
+          */}
     </aside>
   );
 }

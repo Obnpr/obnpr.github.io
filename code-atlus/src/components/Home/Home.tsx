@@ -29,7 +29,11 @@ function HomePage() {
             >
               Resume
             </a>
-            <Link to="/Portfolio-Collage" className="mainpage-buttons">
+            <Link 
+            //to="/Portfolio-Collage" 
+            className="mainpage-buttons" 
+            id="button-disabled"
+            >
               Collage Portfolio
             </Link>
         </ul>
